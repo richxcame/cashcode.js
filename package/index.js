@@ -64,38 +64,39 @@ class BillValidator extends EventEmitter {
 			? option.billTable
 			: [
 					{
+						amount: 1,
+						code: 'TMT',
+						enabled: false,
+						security: false,
+					},
+					undefined,
+					{
+						amount: 5,
+						code: 'TMT',
+						enabled: false,
+						security: false,
+					},
+					{
 						amount: 10,
-						code: 'LKA',
+						code: 'TMT',
 						enabled: false,
 						security: false,
 					},
 					{
 						amount: 20,
-						code: 'LKA',
+						code: 'TMT',
 						enabled: false,
 						security: false,
 					},
 					{
 						amount: 50,
-						code: 'LKA',
+						code: 'TMT',
 						enabled: false,
 						security: false,
 					},
 					{
 						amount: 100,
-						code: 'LKA',
-						enabled: false,
-						security: false,
-					},
-					{
-						amount: 500,
-						code: 'LKA',
-						enabled: false,
-						security: false,
-					},
-					{
-						amount: 1000,
-						code: 'LKA',
+						code: 'TMT',
 						enabled: false,
 						security: false,
 					},
