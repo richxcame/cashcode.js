@@ -1,7 +1,15 @@
 # CashCode Bill Validator
- npm package for cashcode bill validator
 
-## Get device status
+Package for cashcode bill validator
+
+## Installation
+
+`npm i cashcodejs`
+
+## Usage
+
+### Get device status
+
 ```
 // Show device errors
 device.on('error', (error)=>{
@@ -23,7 +31,9 @@ device.on('status', (sts)=>{
     console.log("Status:", sts);
 });
 ```
-## Get device real-time data
+
+### Get device real-time data
+
 ```
 // Trigger when device powerup
 device.on('powerup', function () {
@@ -66,7 +76,8 @@ device.on('hold', ()=>{
 });
 ```
 
-## Handel device cash accept process 
+### Handel device cash accept process
+
 ```
 // Trigger when cash accept
 device.on('escrow', async(cash)=>{
@@ -95,15 +106,16 @@ await device.retrieve();
 await device.stack();
 ```
 
+### Device handle disable event
 
-## Device handle disable event
 ```
 device.on('disabled', async()=>{
     await device.end();
 });
 ```
 
-## Device handle enable event
+### Device handle enable event
+
 ```
 await device.start();
 ```

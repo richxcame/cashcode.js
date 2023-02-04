@@ -1,21 +1,21 @@
 {
-  "name": "cashcodejs",
-  "version": "1.0.0",
-  "description": "CashCode Bill Validator",
-  "repository": "https://github.com/richxcame/cashcode.js",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "CashCode",
-    "Bill",
-    "Validator",
-    "MSM-3024"
-  ],
-  "author": "Baygeldi Cholukov <baygeldicolukov@gmail.com>",
-  "license": "MIT",
-  "dependencies": {
-    "serialport": "^10.4.0"
-  }
+	"name": "cashcodejs",
+	"version": "1.1.0",
+	"description": "CashCode Bill Validator",
+	"repository": "https://github.com/richxcame/cashcodejs",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"CashCode",
+		"Bill",
+		"Validator",
+		"MSM-3024"
+	],
+	"author": "Baygeldi Cholukov <baygeldicolukov@gmail.com>",
+	"license": "MIT",
+	"dependencies": {
+		"serialport": "^10.4.0"
+	}
 }
