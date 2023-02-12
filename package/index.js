@@ -166,7 +166,7 @@ class BillValidator extends EventEmitter {
 			clearTimeout(self.opentimer);
 			console.log('serial port close');
 			/* Try to reconnect */
-			open();
+			// open();
 		});
 
 		/* Manualy open the serial port */
